@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Class Five</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<h1>Basic <span class="color">Table</span></h1>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Roll</th>
+				<th>GPA</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td colspan="2">3</td>
+			</tr>
+			<tr>
+				<td rowspan="2">1</td>
+				<td class="border">2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="wrapper">
+		<h1>Basic <span class="color">From</span></h1>
+
+		<form action="">
+			<!--
+			<table>
+				<tr>
+					<td><input type="text" placeholder=" First Name"></td>
+					<td><input type="text" placeholder="Last Name"> </td>
+				</tr>
+				<tr>
+					<td><input type="email" placeholder="Email"></td>
+					<td><input type="date"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Registration"></td>
+				</tr>
+			</table> -->
+			<input class="input-field" type="text" placeholder="Name">
+			<input  class="input-field" type="number" min="0" max="100" placeholder="Age">
+			<input  class="input-field" type="email" placeholder="Email">
+			<input  class="input-field" type="date">
+			<input  class="input-field" type="password" placeholder="Password">
+			<label><input  class="input-field" type="radio" name="g">Male</label>
+			<label><input  class="input-field" type="radio" name="g">Female</label>
+
+			<select name="" id="" class="input-field" >
+				<option value="">Choice 1</option>
+				<option value="">Choice 1</option>
+				<option value="">Choice 1</option>
+			</select>
+			<input class="input-field"  type="file">
+			<textarea class="input-field" placeholder="Write your Bio"></textarea>
+			<input type="reset" class="input-field">
+			<input class="submit-btn" type="submit" value="Sign Up">
+		</form>
+
+
+		<a href="video.html">Go to Video Page</a>
+	</div>
+	
+</body>
+</html>
